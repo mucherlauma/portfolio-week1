@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mucherla Uma Devi</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <!-- Dynamic Greeting -->
+            <p class="greeting"></p>
+            
+            <h2>About Me</h2>
+            <p>
+                I am a B.Tech student with a strong interest in Full-Stack Web Development and problem solving.
+                I enjoy learning new technologies and building responsive, user-friendly web applications.
+            </p>
+            <p>
+                My goal is to enhance my technical skills, gain real-world industry experience,
+                and grow as a software developer by contributing to meaningful and impactful projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>React.js</span>
+                <span>Python</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MySQL</span>
+                <span>SQLite</span>
+                <span>Git</span>
+                <span>DSA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Course Enrollment App</h3>
+<p>
+    A React.js application showcasing a responsive list of online courses with clean UI and navigation.
+</p>
+<p><strong>Technologies:</strong> React.js, CSS, React Router</p>
+<a href="https://github.com/mucherlauma/Course_Enrollment" target="_blank" class="project-link">
+    View on GitHub
+</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Wikipedia Search Application</h3>
+                    <p>
+                        A responsive web app to search Wikipedia articles dynamically.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap, REST API</p>
+                    <a href="https://wikisearchhead.ccbp.tech/" target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Chatbot Application</h3>
+                    <p>
+                        An interactive chatbot with predefined responses and dynamic UI.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                    <a href="https://chatbotwebsite1.ccbp.tech/" target="_blank" class="project-link">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn">⬆</button>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
